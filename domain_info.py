@@ -70,14 +70,14 @@ x. Exit: Quit the script.
 def update_domain_info():
     """Simulates updating the tool."""
     logo()
-    print("\n\033[01;32mUpdating Domain_Info.........\033[01;37m\n")
+    print("Updating Domain_Info.........")
     time.sleep(1)
 
     try:
         # Simulate Git clone and installation commands
         subprocess.run(["git", "clone", "https://github.com/YassineDouadi/Domain_Info.git", "~/Domain_Info"], check=True)
         subprocess.run(["sh", "install"], cwd="~/Domain_Info", check=True)
-        print("\n\033[01;32mIP-Domain_Info updated successfully!\033[01;37m")
+        print("IP-Domain_Info updated successfully!")
     except subprocess.CalledProcessError as e:
         print(f"Error during update: {e}")
     except FileNotFoundError:
