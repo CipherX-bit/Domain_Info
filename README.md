@@ -24,7 +24,7 @@ A Python-based script that allows users to retrieve domain-related information, 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YassineDouadi/Domain_Info.git
+    git clone https://github.com/CipherX-bit/Domain_Info.git
     ```
 
 2. Install dependencies:
